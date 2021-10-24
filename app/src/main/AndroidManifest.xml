@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.southasiauniversity">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SouthAsiaUniversity">
+        <activity
+            android:name=".DrawerAcitivity.GalleryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerAcitivity.LinkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerAcitivity.ContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerAcitivity.MapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SocialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerAcitivity.LibraryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerAcitivity.CalenderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerAcitivity.AdmissionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerAcitivity.EventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerAcitivity.NewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerAcitivity.AnnounceAcitivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerAcitivity.IgacActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerAcitivity.FeddbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerAcitivity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerAcitivity.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

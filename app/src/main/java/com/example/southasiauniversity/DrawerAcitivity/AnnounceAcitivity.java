@@ -1,0 +1,16 @@
+package com.example.southasiauniversity.DrawerAcitivity;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+import com.example.southasiauniversity.R;
+
+public class AnnounceAcitivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_announce_acitivity);
+    }
+}
